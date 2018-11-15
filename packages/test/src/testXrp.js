@@ -1,4 +1,4 @@
-import Xrp from "@ledgerhq/hw-app-xrp";
+import Xrp from "@liquality/hw-app-xrp";
 
 export default async transport => {
   const xrp = new Xrp(transport);

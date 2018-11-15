@@ -1,5 +1,5 @@
 //@flow
-import Transport, { TransportError } from "@ledgerhq/hw-transport";
+import Transport, { TransportError } from "@liquality/hw-transport";
 
 const WebSocket = global.WebSocket || require("ws");
 

@@ -1,6 +1,6 @@
 import "babel-polyfill";
 
-import TransportU2F from "@ledgerhq/hw-transport-u2f";
+import TransportU2F from "@liquality/hw-transport-u2f";
 import runTests from "./runTests";
 
 const btn = document.createElement("button");

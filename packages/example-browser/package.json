@@ -1,14 +1,14 @@
 {
-  "name": "@ledgerhq/example-browser",
+  "name": "@liquality/example-browser",
   "license": "Apache-2.0",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel index.html --https",
     "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
   },
   "dependencies": {
-    "@ledgerhq/hw-app-btc": "^4.30.0",
-    "@ledgerhq/hw-app-eth": "^4.24.0",
-    "@ledgerhq/hw-transport-u2f": "^4.28.0",
+    "@liquality/hw-app-btc": "^4.30.0",
+    "@liquality/hw-app-eth": "^4.24.0",
+    "@liquality/hw-transport-u2f": "^4.28.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },

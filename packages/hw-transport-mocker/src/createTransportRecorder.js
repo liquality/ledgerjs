@@ -1,5 +1,5 @@
 //@flow
-import Transport from "@ledgerhq/hw-transport";
+import Transport from "@liquality/hw-transport";
 import type RecordStore from "./RecordStore";
 export default (
   DecoratedTransport: Class<Transport<*>>,

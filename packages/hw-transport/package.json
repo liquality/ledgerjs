@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerhq/hw-transport",
+  "name": "@liquality/hw-transport",
   "version": "4.24.0",
   "description": "Ledger Hardware Wallet common interface of the communication layer",
   "keywords": [

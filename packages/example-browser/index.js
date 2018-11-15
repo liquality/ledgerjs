@@ -1,9 +1,9 @@
 import "./index.css";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import TransportU2F from "@ledgerhq/hw-transport-u2f";
-import Btc from "@ledgerhq/hw-app-btc";
-import Eth from "@ledgerhq/hw-app-eth";
+import TransportU2F from "@liquality/hw-transport-u2f";
+import Btc from "@liquality/hw-app-btc";
+import Eth from "@liquality/hw-app-eth";
 
 class App extends Component {
   state = {

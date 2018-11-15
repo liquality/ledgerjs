@@ -17,8 +17,8 @@
 // @flow
 
 import Int64 from "node-int64";
-import type Transport from "@ledgerhq/hw-transport";
-import { TransportStatusError } from "@ledgerhq/hw-transport";
+import type Transport from "@liquality/hw-transport";
+import { TransportStatusError } from "@liquality/hw-transport";
 
 const CLA = 0x80;
 
@@ -46,7 +46,7 @@ const INDEX_MAX_EXCEEDED = 0x5302;
  * Cardano ADA API
  *
  * @example
- * import Ada from "@ledgerhq/hw-app-ada";
+ * import Ada from "@liquality/hw-app-ada";
  * const ada = new Ada(transport);
  */
 export default class Ada {
